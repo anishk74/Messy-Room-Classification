@@ -95,7 +95,7 @@ history = model.fit(
 )
 
 fig=plt.figure(figsize=(6,6))
-#fig.text(0.5,0.95,'Batch-size = 32\nHeight,Width=76')
+
 
 plt.plot(history.history['accuracy'])
 
@@ -108,5 +108,5 @@ plt.legend(['Training','Cross-Validation'])
 
 
 plt.tight_layout()
-plt.savefig('plots/output_mesures.png')
+plt.savefig('plots/output_measures.png')
 
