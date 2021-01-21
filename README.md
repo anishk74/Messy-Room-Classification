@@ -1,4 +1,4 @@
-# Rooms-classification
+# Messy-Room-Classification
 Detect if a room is messy with the help of CNN.
 
 ## Description
